@@ -5,7 +5,7 @@ Homebrew packages maintained by me.
 ## Install nuke
 
 ```sh
-brew install --cask charlesonunze/tap/nuke
+brew install charlesonunze/tap/nuke
 ```
 
 Verify the installation:
@@ -17,22 +17,21 @@ nuke version
 ## Upgrade
 
 ```sh
-brew upgrade --cask nuke
+brew upgrade nuke
 ```
 
 ## Uninstall
 
 ```sh
-brew uninstall --cask nuke
+brew uninstall nuke
 ```
 
 ## About this tap
 
-The `nuke` cask is generated from tagged releases in
-[`charlesonunze/nuke`](https://github.com/charlesonunze/nuke). Release archives
-are selected for the current operating system and architecture and verified
-with their published SHA-256 checksums.
+The `nuke` formula is generated from tagged releases in
+[`charlesonunze/nuke`](https://github.com/charlesonunze/nuke). Homebrew builds
+the CLI from the tagged source and verifies it with a published SHA-256
+checksum.
 
-Do not edit generated files under `Casks/` manually. Changes are published by
+Do not edit generated files under `Formula/` manually. Changes are published by
 the upstream release workflow.
-
